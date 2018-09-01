@@ -1,0 +1,27 @@
+#root {
+  margin-top: 60px;
+}
+
+#textInput, #textOutput {
+  margin-top: 40px;
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  min-height: 300px;
+  max-height: 300px;
+  width: 400px;
+  display: inline-block;
+  overflow: auto;
+}
+
+#textInput {
+  background: linear-gradient(#EEE, white);
+  border: 1px solid #AAA;
+  outline: none;
+}
+
+#textOutput {
+  background: linear-gradient(#d5c8f9, white);
+  border: 1px solid #4f1ae0;
+  text-align: left;
+}
